@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* Unique CSS definitions for the TESTIMONIALS SECTION. Only classes and IDs!  */
+
+
+
+#Testimonials {
+	width: 100%;
+	margin: 0 auto;
+}
+.TestimonialsDesktop {
+	display: block;
+}
+.TestimonialsMobile {
+	display: none;
+}
+@media (max-width:580px){
+	.TestimonialsDesktop{
+		display: none;
+	}
+	.TestimonialsMobile{
+		display: block;
+	}
+}

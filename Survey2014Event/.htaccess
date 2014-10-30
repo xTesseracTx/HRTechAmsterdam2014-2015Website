@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^events\.hrtecheurope\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.events\.hrtecheurope\.com$
+RewriteRule ^/?$ "http\:\/\/survey\.hrtecheurope\.com\/" [R=301,L]
+

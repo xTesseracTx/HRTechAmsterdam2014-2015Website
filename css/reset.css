@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* Override the included 3rd party CSS rules with this file. The rules apply trough the whole site. Only HTML TAG rules!  */
+
+
+*  {
+	font-family: 'Roboto', sans-serif;
+	font-size:10px;
+    }
+
+
+
+
+@media (max-width:520px){
+	* {
+		font-size: 8.9px;
+	}
+}
+@media (max-width:480px){
+	* {
+		font-size: 8.2px;
+	}
+}
+@media (max-width:360px){
+	* {
+		font-size: 6.2px;
+	}
+}
+@media (max-width:320px){
+	* {
+		font-size: 5.5px;
+	}
+}
+
+	
+h1 {
+font-weight:bold;
+font-size:6em;	
+}	
+	
+h2 {
+font-family: 'Oswald', sans-serif;
+font-size:5em;
+font-weight:400;
+text-transform: uppercase;
+text-align: center;
+margin-top: 60px;
+margin-bottom: 50px;
+	}
+	
+@media (max-width:580px){
+	h2 {
+		margin-top: 1.5em;
+		margin-bottom: 1.2em;
+	}
+}	
+	
+	
+header {
+	color: #fff;
+}
+
+footer {
+	background-color: #082d3c;
+}
+

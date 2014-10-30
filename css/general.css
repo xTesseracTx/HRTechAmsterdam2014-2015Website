@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* Unique CSS definitions. The rules apply trough the whole site. Only classes and IDs!  */
+
+.RobotoText {
+    font-family: 'Roboto', sans-serif;
+}
+.OswaldText {
+    font-family: 'Oswald', sans-serif;
+}
+.BlueColor {
+    color: #006fca;
+}
+.RedColor {
+    color: #eb1f32;
+}
+.OrangeColor {
+    color: #ff6f00;
+}
+.ResponsiveImage {
+    width: 100%;
+    height: auto;
+}
+.BlueButton {
+    color: #fff;
+    transition: all 0.3s;
+    background-color: #4c9ada;
+    border: 3px solid #006fca;
+    font-size: 2.6em;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 50px auto;
+    text-align: center;
+    cursor: pointer;
+}
+.BlueButton:hover {
+    transition: all 0.3s;
+    background-color: #006fca;
+}
+.RedButton {
+    color: #fff;
+    transition: all 0.3s;
+    background-color: rgba(235, 31, 50, 0.48);
+    border: 3px solid #eb1f32;
+    font-size: 2.6em;
+    text-transform: uppercase;
+    padding: 7px 20px;
+    max-width: 300px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.RedButton:hover {
+    transition: all 0.3s;
+    background-color: rgba(235, 31, 50, 1);
+}
+
+/*OFF CANVAS MENU*/
+.move-left > .inner-wrap {
+  -ms-transform: translate(-520px, 0);
+  -webkit-transform: translate3d(-520px, 0, 0);
+  -moz-transform: translate3d(-520px, 0, 0);
+  -ms-transform: translate3d(-520px, 0, 0);
+  -o-transform: translate3d(-520px, 0, 0);
+  transform: translate3d(-520px, 0, 0); 
+}
+.move-right > .inner-wrap {
+  -ms-transform: translate(520px, 0);
+  -webkit-transform: translate3d(520px, 0, 0);
+  -moz-transform: translate3d(520px, 0, 0);
+  -ms-transform: translate3d(520px, 0, 0);
+  -o-transform: translate3d(520px, 0, 0);
+  transform: translate3d(520px, 0, 0);
+}
+@media (max-width:580px){
+    .move-left > .inner-wrap {
+      -ms-transform: translate(-100%, 0);
+      -webkit-transform: translate3d(-100%, 0, 0);
+      -moz-transform: translate3d(-100%, 0, 0);
+      -ms-transform: translate3d(-100%, 0, 0);
+      -o-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0); 
+    }
+    .move-right > .inner-wrap {
+      -ms-transform: translate(100%, 0);
+      -webkit-transform: translate3d(100%, 0, 0);
+      -moz-transform: translate3d(100%, 0, 0);
+      -ms-transform: translate3d(100%, 0, 0);
+      -o-transform: translate3d(100%, 0, 0);
+      transform: translate3d(100%, 0, 0);
+    }    
+}
+.exit-off-canvas {
+    background: none !important;
+    bottom: 0;
+    box-shadow: none !important;
+    z-index: 1002;    
+}
+/*END OFF CANVAS MENU*/
+
+/*Scroll to top button */
+.GoTopButton {
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: none;
+}
+#GoTopImg{
+    width:70px; 
+    height:70px;
+}
+/*Scroll to top button */
+/*STICKY SOCIAL ICON SIDEBAR*/
+#StickySocialIconSidebar {
+    display: block;
+    position: fixed;
+    top: 68%;
+}
+.StickySocialIcon {
+    width: 65px;
+    height: 45px;
+    background-color: rgba(0,0,0,0.33);
+    font-size: 30px;
+    color: white;
+    margin-left: -20px;
+    margin-bottom: 2px;
+    padding-right: 10px;
+    text-align: right;
+}
+.StickySocialIcon:hover{
+    transition: all 0.3s;
+    margin-left: 0px;
+}
+.StickyFacebookIcon {
+    padding-right: 15px;
+}
+.StickyFacebookIcon:hover {
+    background-color: #36609F;
+}
+.StickyTwitterIcon:hover {
+    background-color: #2DAAE1;
+}
+.StickyLinkedinIcon:hover {
+    background-color: #096C9B;
+}
+
+/*MOBILE STICKY SOCIAL ICON SIDEBAR*/
+#MobileStickySocialIconSidebar {
+    display: none; /*It is switched off in desktop*/
+    width: 74px;
+    height: 100%;
+    position: absolute;
+    top: 63px;
+    right: 0;
+    background-color: #202020;
+}
+.MobileStickySocialIcon {
+    margin-top: 20px;
+    text-align: center;
+}
+.toggle {
+    transition: all 0.3s;
+    margin-right: -74px;
+}
+.opensocial {
+    transition: all 0.3s;
+    margin-right: 0;
+}
+/*END MOBILE STICKY SOCIAL ICON SIDEBAR*/  
+@media (max-width:580px){
+    #StickySocialIconSidebar {
+        display: none;
+        }
+    #MobileStickySocialIconSidebar {
+        display: block;
+        position: fixed;
+    }
+    .GoTopButton {
+        bottom: 15px;
+        right: 15px;
+    }
+}
+/*END STICKY SOCIAL ICON SIDEBAR*/

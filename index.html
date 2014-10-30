@@ -1,0 +1,388 @@
+<!doctype html>
+<html>
+<head>
+<meta name="designer" content="Designed by: Judit Bernat - juditbernat.mail@gmail.com ">
+<meta name="developer" content="TesseracT - tesseract@web-developer.hu & Trialshock - trialshock@gmail.com">
+<meta name="author" content="HRN Europe">
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>HR Tech Europe 2015</title>
+
+<!-- Favicon setting -->
+<link rel="shortcut icon" href="favicon.ico">
+
+<!-- 3rd PARTY CSS INCLUDES -->
+<!-- Foundation -->
+<link rel="stylesheet" href="css/includes/foundation/foundation.css" />
+<!-- END Foundation -->
+
+<!-- Font Awesome -->
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- END Font Awesome -->
+
+<!-- Google Fonts -->
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+<!-- END Google Fonts -->
+<!-- END 3rd PARTY CSS INCLUDES -->
+
+<!-- CUSTOM CSS INCLUDES -->
+<!-- Reset CSS - Overrides the previously included 3rd party css definitions. The rules apply trough the whole site. -->
+<link rel="stylesheet" href="css/reset.css" />
+<!-- END Reset CSS -->
+
+<!-- General CSS - Unique CSS definitions. The rules apply trough the whole site.  -->
+<link rel="stylesheet" href="css/general.css" />
+<!-- END General CSS -->
+<!-- END CUSTOM CSS INCLUDES -->
+
+<!-- 3RD PARTY JAVASCRIPT INCLUDES -->
+
+<!-- jQuery -->
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- END jQuery -->
+
+<!-- VIDE 0.2.0 - lightweight video background plugin -->
+<script src="js/sections/header/jquery.vide.js"></script>
+
+<!-- Scroll to top JS --> 
+<script src="js/gotopscroll.js"></script>
+<!-- Smooth scroll JS -->
+<script src="js/smoothscroll.js"></script>
+
+<!-- Foundation-->
+<script src="js/includes/foundation/foundation.js" /></script>
+<script src="js/includes/foundation/foundation.abide.js"></script>
+<script src="js/includes/foundation/foundation.accordion.js"></script>
+<script src="js/includes/foundation/foundation.alert.js"></script>
+<script src="js/includes/foundation/foundation.clearing.js"></script>
+<script src="js/includes/foundation/foundation.dropdown.js"></script>
+<script src="js/includes/foundation/foundation.equalizer.js"></script>
+<script src="js/includes/foundation/foundation.interchange.js"></script>
+<script src="js/includes/foundation/foundation.joyride.js"></script>
+<script src="js/includes/foundation/foundation.magellan.js"></script>
+<script src="js/includes/foundation/foundation.offcanvas.js"></script>
+<script src="js/includes/foundation/foundation.orbit.js"></script>
+<script src="js/includes/foundation/foundation.reveal.js"></script>
+<script src="js/includes/foundation/foundation.slider.js"></script>
+<script src="js/includes/foundation/foundation.tab.js"></script>
+<script src="js/includes/foundation/foundation.tooltip.js"></script>
+<script src="js/includes/foundation/foundation.topbar.js"></script>
+<!-- END Foundation --> 
+
+<!-- Google Analytics -->
+
+<!-- End Google analytics -->
+
+
+<!--Random order of Titanium sponsors-->
+<script type="text/javascript">
+$(document).ready(function(){
+    reorder();
+function reorder() {
+    var grp = $("#titanium-sponsors").children();
+    var cnt = grp.length;
+
+    var temp, x;
+    for (var i = 0; i < cnt; i++) {
+        temp = grp[i];
+        x = Math.floor(Math.random() * cnt);
+        grp[i] = grp[x];
+        grp[x] = temp;
+    }
+    $(grp).remove();
+    $("#titanium-sponsors").append($(grp));
+}
+
+function orderPosts() {
+       
+}
+	
+});
+</script>
+<!--Random order of Titanium sponsors-->
+
+<!-- SOCIAL ICON MOBILE OFF CANVAS -->
+<script language="javascript">
+$(document).click(function (e) {
+    $el = $(e.target);
+    if ($el.hasClass('toggle')) {return false;} // off canvas class
+    else if ($el.hasClass('mobilesocialicon')) { //button
+        $(".toggle").toggleClass('opensocial'); // off canvas class OPENED
+
+    } else {
+        $(".toggle").removeClass('opensocial');
+    }
+});
+</script>
+
+<!-- END 3RD PARTY JAVASCRIPT INCLUDES -->
+</head>
+
+
+<body>
+<!-- HEADER AND OFF CANVAS -->
+
+<link rel="stylesheet" href="css/header.css" />
+<div class="off-canvas-wrap" data-offcanvas>
+  <div class="inner-wrap">
+
+<!-- APPLY NOW OFF CANVAS FORM -->
+<aside class="right-off-canvas-menu sticky" id="ApplyNowOffCanvasForm">
+  <img  class="exit-off-canvas ClosingSign" src="img/closingsign.png" alt="Close">
+  <form action="http://hrneurope.us4.list-manage.com/subscribe/post?u=c03cb8f11b1f34771fdd1747c&amp;id=956325e210" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+     <div class="row">
+      <i class="fa fa-ticket off-canvas-ticket-icon"></i><br>
+      <h2>2 for 1 bookings</h2>
+     </div>
+     
+      <div class="row">
+        <div class="large-12 columns">
+          <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First Name *">
+         </div>
+      <div class="large-12 columns">
+          <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last Name *">
+         </div>
+
+        <div class="large-12 columns">
+          <input  type="email" style="" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email *">
+          </div>
+      
+        <div class="large-12 columns">
+      <input type="text" value="" name="COMPANY" class="" id="mce-COMPANY" placeholder="Company">
+        </div>
+        
+        <div class="large-12 columns">
+           <input type="text" name="PHONE" class="" value="" id="mce-PHONE" placeholder="Telephone *">
+         </div>
+
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+         <input type="text"  value="" name="MSG" class="" id="mce-MSG" placeholder="Message (optional)">
+        </div>
+      </div>
+      
+      <div id="form-source-countainer" class="form-source-container-hide">
+	<input type="text" value="Amsterdam2015Okura" name="SOURCE" class="" id="mce-SOURCE">
+</div>
+<!-- Naugty naughty trap for robots-->
+  <div style="position: absolute; left: -5000px;"><input type="text" name="b_c03cb8f11b1f34771fdd1747c_956325e210" tabindex="-1" value=""></div>
+    <!--END Naugty naughty trap for robots-->
+      <div class="large-12 columns">
+        <input type="submit" value="REGISTER NOW" name="subscribe" id="mc-embedded-subscribe" class="button RedButton">
+      </div>
+    </form>
+  <!--END CONTACT FORM -->
+</aside>
+<!-- END APPLY NOW OFF CANVAS FORM -->
+
+<!-- APPLY AS SPEAKER OFF CANVAS FORM -->
+<aside class="left-off-canvas-menu" id="ApplyAsSpeakerOffCanvasForm">
+  <img  class="exit-off-canvas ClosingSign" src="img/closingsign.png" alt="Close">
+  <form action="http://hrneurope.us4.list-manage.com/subscribe/post?u=c03cb8f11b1f34771fdd1747c&amp;id=956325e210" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+     <div class="row">
+      
+      <h2>Apply Here <br>as a Speaker</h2>
+     </div>
+     
+      <div class="row">
+        <div class="large-12 columns">
+          <input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First Name *">
+         </div>
+      <div class="large-12 columns">
+          <input type="text" value="" name="LNAME" class="" id="mce-LNAME" placeholder="Last Name *">
+         </div>
+
+        <div class="large-12 columns">
+          <input  type="email" style="" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email *">
+          </div>
+      
+        <div class="large-12 columns">
+      <input type="text" value="" name="COMPANY" class="" id="mce-COMPANY" placeholder="Company">
+        </div>
+        
+        <div class="large-12 columns">
+           <input type="text" name="PHONE" class="" value="" id="mce-PHONE" placeholder="Telephone *">
+         </div>
+
+      </div>
+      <div class="row">
+        <div class="large-12 columns">
+         <input type="text"  value="" name="MSG" class="" id="mce-MSG" placeholder="Message (optional)">
+        </div>
+      </div>
+      
+      <div id="form-source-countainer" class="form-source-container-hide">
+	<input type="text" value="Amsterdam2015SpeakerApplication" name="SOURCE" class="" id="mce-SOURCE">
+</div>
+<!-- Naugty naughty trap for robots-->
+  <div style="position: absolute; left: -5000px;"><input type="text" name="b_c03cb8f11b1f34771fdd1747c_956325e210" tabindex="-1" value=""></div>
+    <!--END Naugty naughty trap for robots-->
+      <div class="large-12 columns">
+        <input type="submit" value="APPLY AS A SPEAKER" name="subscribe" id="mc-embedded-subscribe" class="BlueButton" style="margin-top: 0;">
+      </div>
+    </form>
+  <!--END CONTACT FORM -->
+</aside>
+<!-- END APPLY AS SPEAKER OFF CANVAS FORM -->
+<section class="main-section">    
+
+<header>
+<div id="HeaderBluestripe">
+  full website coming soon!
+</div>
+<div id="HeaderGreystripe">
+  <img src="img/header/hrtech-mobile-logo.png" alt="HR Tech Europe Amsterdam 6 May">
+  <div id="MobileSocialIconOffCanvasButton" class="mobilesocialicon">
+    <i class="fa fa-plus mobilesocialicon"></i><i class="fa fa-users mobilesocialicon"></i>
+  </div>
+</div>
+<div id="ImgBackground">
+  <img class="HRTechLogo" src="img/header/hrtech-logo.png" alt="HR Tech Europe Hotel Okura Amsterdam | 6 May">
+  <h1 class="UnleashHeadline">Unleash your people!</h1>
+  <p class="FastestGrowing RobotoText">The World's Fastest Growing HR Event</p>
+    <p class="TwoForOneTickets RobotoText">2 for 1 Tickets Now Available</p>
+    <a href="#ApplyNowOffCanvasForm" class="right-off-canvas-toggle" ><div class="RedButton">Apply now</div></a>
+</div>
+
+<div id="VideoBackground">
+  <div style="max-width: 1920px; max-height: 570px; padding: 50px 20px 60px 20px; background-color: rgba(0, 0, 0, 0.3);"
+      data-vide-bg="mp4: video/hrtech-bg, ogv: video/hrtech-bg, poster: video/hrtech-bg" data-vide-options="posterType: png, loop: true, muted: false, position: 0% 0%">
+    <img class="HRTechLogo" src="img/header/hrtech-logo.png" alt="HR Tech Europe Hotel Okura Amsterdam | 6 May">
+    <h1 class="UnleashHeadline">Unleash your people!</h1>
+    <p class="FastestGrowing RobotoText">The World's Fastest Growing HR Event</p>
+    <p class="TwoForOneTickets RobotoText">2 for 1 Tickets Now Available</p>
+    <a href="#ApplyNowOffCanvasForm" class="right-off-canvas-toggle" ><div class="RedButton">Apply now</div></a>
+  </div>
+</div>
+
+
+
+
+
+<div class="ColoredStripes">
+  <div class="stripe OrangeStripe"></div>
+  <div class="stripe RedStripe"></div>
+  <div class="stripe BlueStripe"></div>
+</div>
+</header>
+<!-- END HEADER AND OFF CANVAS -->
+
+<!-- STICKY SOCIAL ICON SIDEBAR -->
+<div id="StickySocialIconSidebar">
+  <a href="https://www.facebook.com/hrtecheu" target="_blank"><div class="StickySocialIcon StickyFacebookIcon"><i class="fa fa-facebook"></i></div></a>
+  <a href="https://twitter.com/hrtecheurope" target="_blank"><div class="StickySocialIcon StickyTwitterIcon"><i class="fa fa-twitter"></i></div></a>
+  <a href="http://www.linkedin.com/groups/HR-Technology-Europe-Human-Resources-3930182/about" target="_blank"><div class="StickySocialIcon StickyLinkedinIcon"><i class="fa fa-linkedin"></i></div></a>
+</div>
+<!-- END STICKY SOCIAL ICON SIDEBAR -->
+
+<!-- MAIN CONTENT -->
+<main>
+
+<!-- THANK YOU -->
+<link rel="stylesheet" href="css/thankyou.css" />
+<section id="ThankYou">
+  <h2 class="BlueColor">Thank You!</h2>
+  <p class="RobotoText">HR Tech Europe 2014 has just finished in Amsterdam, and we're already looking forward to 2015.<br> 
+Check out <a href="https://www.flickr.com/photos/hrtecheurope/sets/72157648919068765/" target="_blank"><span class="highlight">photos</span></a> and <a href="http://www.slideshare.net/hrtecheurope" target="_blank"><span class="highlight">presentations</span></a> of this year's event.</p>
+</section>
+<!-- END THANK YOU -->
+
+<!-- SPEAKERS -->
+<link rel="stylesheet" href="css/speakers.css" />
+<section id="Speakers">
+  <h2 class="RedColor">Speakers</h2>
+  <div class="SpeakerRow">
+    <div class="SpeakerElement"><img src="img/speakers/WenzlerI.jpg" alt="Ivo Wenzler - Accenture"></div>
+    <div class="SpeakerElement" id="MiddleSpeakerElement"><img src="img/speakers/AverbookJ.jpg" alt="Jason Averbook - Appirio"></div>
+    <div class="SpeakerElement" id="LastSpeakerElement"><img src="img/speakers/TrostA.jpg" alt="Armin Trost - HFU Business School"></div>
+  </div>
+<a href="#"  class="left-off-canvas-toggle" ><div id="SpeakersButton" class="GoTopSpeakersButton BlueButton">Apply As A Speaker</div></a>    
+</section>
+<!-- END SPEAKERS -->
+
+<!-- TESTIMONIALS -->
+<link rel="stylesheet" href="css/testimonials.css" />
+<section id="Testimonials">
+  <img class="ResponsiveImage TestimonialsDesktop" src="img/testimonials/testimonials-desktop.jpg" alt="�HR Tech Europe in my eyes is the best conference in the HR space globally!� TimeWarner, �Great participants who inspired great and useful discussions, a wonderfully great event!� SAP, �HR Tech Europe provides a comprehensive overview of what goes on across the globe � very inspiring and motivating.� Xerox">
+  <img class="ResponsiveImage TestimonialsMobile" src="img/testimonials/testimonials-mobile.jpg" alt="�HR Tech Europe in my eyes is the best conference in the HR space globally!� TimeWarner, �Great participants who inspired great and useful discussions, a wonderfully great event!� SAP, �HR Tech Europe provides a comprehensive overview of what goes on across the globe � very inspiring and motivating.� Xerox">
+</section>
+<!-- END TESTIMONIALS -->
+
+<!-- CLIENTS -->
+<link rel="stylesheet" href="css/clients.css" />
+<section id="Clients">
+  <h2 class="OrangeColor">Our Clients</h2>
+          <div id="titanium-sponsors"> 
+            <div class="titanium-sponsor" id="ibm" style="background:url(img/clients/ibm.png); background-size:contain; height: 50px; "></div>
+            
+            <div class="titanium-sponsor" style="background:url(img/clients/oracle.png); background-size:contain; height: 50px;"></div>
+            
+            <div class="titanium-sponsor" style="background:url(img/clients/adp.png); background-size:contain; height: 50px;"></div>
+            
+            <div class="titanium-sponsor" style="background:url(img/clients/workday.png); background-size:contain; height: 50px;"></div>
+            
+            <div class="titanium-sponsor" style="background:url(img/clients/successfactors.png); background-size:contain; height: 50px;"></div>
+            
+            <div class="titanium-sponsor" style="background:url(img/clients/cornerstone.png); background-size:contain; height: 50px;" ></div>
+            </div>  
+  
+
+</section>
+<!-- END CLIENTS -->
+
+</main>
+<!-- END MAIN CONTENT -->
+
+<!-- FOOTER -->
+<footer>
+<link rel="stylesheet" href="css/footer.css" />
+<div id="FooterContainer">
+  <div class="FooterItem" id="FooterLogo"><img src="img/footer/hrtech-benelux-footer-logo.png" alt="HR Tech Europe Hotel Okura Amsterdam | 6 May"></div>
+  <div id="FooterTexts">
+    <div class="FooterItem" id="FooterGeneralEnquiries">General Inquiries</div>
+    <div class="FooterItem" id="FooterPhone"><i class="fa fa-phone"></i>+36 1 201 1469 </div>
+    <div class="FooterItem" id="FooterEmail"><a href="mailto:hrn@hrneurope.com"><i class="fa fa-envelope"></i>hrn@hrneurope.com</a></div>
+  </div>
+</div>
+
+</footer>
+<!-- END FOOTER -->
+
+<!-- GO TOP SCROLL -->
+<a href="#" class="GoTopButton smoothScroll"><img id="GoTopImg" src="img/gotop/gotop.png" alt="Go top"></a>
+<!-- END GO TOP SCROLL -->
+
+
+<!-- MOBILE STICKY SOCIAL ICON SIDEBAR -->
+<div id="MobileStickySocialIconSidebar" class="toggle">
+  <a href="https://www.facebook.com/hrtecheu" target="_blank"><div class="MobileStickySocialIcon"><img src="img/mobile-socialicons/mobile-facebook-icon.png" alt="Facebook"></div></a>
+  <a href="https://twitter.com/hrtecheurope" target="_blank"><div class="MobileStickySocialIcon"><img src="img/mobile-socialicons/mobile-twitter-icon.png" alt="Twitter"></a>
+  <a href="http://www.linkedin.com/groups/HR-Technology-Europe-Human-Resources-3930182/about" target="_blank"><div class="MobileStickySocialIcon"><img src="img/mobile-socialicons/mobile-linkedin-icon.png" alt="Linkedin"></div></a>
+</div>
+<!-- END MOBILE STICKY SOCIAL ICON SIDEBAR -->
+
+
+
+</section>
+  <a class="exit-off-canvas"></a>
+  </div>
+</div>
+<!-- EXIT OFF CANVAS -->
+
+<!-- Call Foundation Main Function -->
+<script>
+  $(document).foundation();
+</script>
+<!-- END Call Foundation Main Function -->
+
+<!-- VALIDATION FORM -->
+    <script type='text/javascript' src='http://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[0]='EMAIL';ftypes[0]='email';fnames[3]='COMPANY';ftypes[3]='text';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='MSG';ftypes[5]='text';fnames[6]='SOURCE';ftypes[6]='dropdown';fnames[7]='WEBSITE';ftypes[7]='url';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!-- END VALIDATION FORM -->
+
+</body>
+</html>

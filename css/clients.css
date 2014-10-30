@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* Unique CSS definitions for the CLIENTS SECTION. Only classes and IDs!  */
+
+
+#Clients {
+	padding: 5px 30px 50px 30px;
+}
+
+
+/***TITANIUM SPONSORS***/
+#titanium-sponsors {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.titanium-sponsor {
+	width:200px;
+	height:150px;
+	display:inline-block;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed;
+    background-position: center !important; 
+	margin: 25px;
+}
+/***END TITANIUM SPONSORS***/
+
+#ClientsButton {
+	max-width: 425px;
+	margin: 20px auto 30px auto;
+}
+
+
+@media (max-width:1500px){
+	#titanium-sponsors {
+		justify-content: center;
+	}
+}
+@media (max-width:580px) {
+	#titanium-sponsors {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	#ClientsButton {
+		font-size: 2.4em;
+	}
+	.titanium-sponsor {
+		
+		margin: 30px;
+	}
+}

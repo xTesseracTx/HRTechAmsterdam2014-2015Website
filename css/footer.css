@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* Unique CSS definitions for the Footer. 
+The rules apply trough the whole site.
+Only use classes and IDs, or make sure you refer to HTML TAGS as children of the <footer> if the <footer> tag is not present anywhere else. */
+
+#FooterContainer {
+    max-width: 950px;
+    margin: 0 auto;
+    color: #ccc;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.FooterItem {
+    display: inline-block;
+}
+#FooterLogo {
+    margin-left: 10px;
+}
+#FooterGeneralEnquiries {
+    font-size: 1.5em;
+    margin-right: 20px;
+}
+#FooterPhone, #FooterEmail {
+    font-weight: 300;
+    font-size: 1.347em;
+    margin-right: 20px;
+}
+#FooterEmail a{
+    font-size: 1em;
+    color: #ccc;
+}
+#FooterContainer .fa {
+    padding-right: 10px;
+}
+@media (max-width:720px) {
+    #FooterContainer {
+        display: flex;
+        justify-content: center;
+    }
+    #FooterLogo, #FooterTexts {
+        display: block;
+        width: 600px;
+        text-align: center;
+    }
+}
+@media(max-width:740px){
+    #FooterContainer {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    #FooterLogo {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        margin-left: auto;
+    }
+    #FooterEmail a{
+        font-size: 1em;
+    }    
+    #FooterContainer div {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #FooterGeneralEnquiries {
+        font-size: 20px;
+    }
+    #FooterPhone, #FooterEmail {
+        font-size: 16.5px;
+    }    
+}

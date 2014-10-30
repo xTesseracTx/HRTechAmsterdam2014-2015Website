@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* Unique CSS definitions for the THANK YOU SECTION. Only classes and IDs!  */
+
+#ThankYou {
+    max-width: 1350px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+#ThankYou p {
+    font-weight: 300;
+    font-size: 3em;
+    color: #353535;
+    margin-top: 10px;
+}
+#ThankYou p a .highlight {
+    font-size: 3em;
+    text-decoration: none;
+    font-weight: bold;
+    color: #006FCA;
+}
+#ThankYou p a .highlight:hover {
+    text-decoration: underline;
+}
+#ThankYou a:visited {
+    color: #551A8B;
+}
+
+@media (max-width:580px){
+	#ThankYou p {
+		margin-top: 1em;
+                margin-bottom: 0em;
+	}
+}
