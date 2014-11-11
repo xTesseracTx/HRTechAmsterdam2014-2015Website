@@ -115,7 +115,7 @@
 #StickySocialIconSidebar {
     display: block;
     position: fixed;
-    top: 68%;
+    top: 61%;
 }
 .StickySocialIcon {
     width: 65px;
@@ -135,6 +135,15 @@
 .StickyFacebookIcon {
     padding-right: 15px;
 }
+.StickyFlickrIcon img{
+    position: relative;
+    top: -4px;
+}
+.StickySlideshareIcon img{
+    position: relative;
+    top: -4px;
+    left: 4px;
+}
 .StickyFacebookIcon:hover {
     background-color: #36609F;
 }
@@ -143,6 +152,12 @@
 }
 .StickyLinkedinIcon:hover {
     background-color: #096C9B;
+}
+.StickyFlickrIcon:hover {
+    background-color: #ed2a90;
+}
+.StickySlideshareIcon:hover {
+    background-color: #1e9da0;
 }
 
 /*MOBILE STICKY SOCIAL ICON SIDEBAR*/

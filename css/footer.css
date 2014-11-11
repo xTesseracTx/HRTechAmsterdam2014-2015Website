@@ -11,6 +11,10 @@ Only use classes and IDs, or make sure you refer to HTML TAGS as children of the
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;    
 }
 .FooterItem {
     display: inline-block;
@@ -38,6 +42,9 @@ Only use classes and IDs, or make sure you refer to HTML TAGS as children of the
     #FooterContainer {
         display: flex;
         justify-content: center;
+        
+        display: -webkit-flex;
+        -webkit-justify-content: center;        
     }
     #FooterLogo, #FooterTexts {
         display: block;
@@ -50,6 +57,11 @@ Only use classes and IDs, or make sure you refer to HTML TAGS as children of the
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        
+        display: -webkit-flex;
+        -webkit-justify-content: center;
+        -webkit-flex-wrap: wrap;        
+        
         text-align: center;
     }
     #FooterLogo {

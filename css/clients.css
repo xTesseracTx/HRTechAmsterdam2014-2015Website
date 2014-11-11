@@ -13,6 +13,11 @@
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
+	
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;
+	-webkit-align-items: center;
+	-webkit-flex-wrap: wrap;	
 }
 .titanium-sponsor {
 	width:200px;
@@ -34,6 +39,7 @@
 @media (max-width:1500px){
 	#titanium-sponsors {
 		justify-content: center;
+		-webkit-justify-content: center;
 	}
 }
 @media (max-width:580px) {
@@ -41,6 +47,11 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
+		
+		-webkit-flex-wrap: wrap;
+		-webkit-justify-content: center;
+		-webkit-align-items: center;		
+		
 		margin-left: auto;
 		margin-right: auto;
 	}

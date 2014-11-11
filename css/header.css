@@ -16,7 +16,6 @@ Only use classes and IDs, or make sure you refer to HTML TAGS as children of the
 	padding: 20px 0;
 	display: none;
 }
-
 #ImgBackground {
 	background: url(../img/header/background.jpg) no-repeat;
 	background-size: cover;
@@ -28,6 +27,7 @@ Only use classes and IDs, or make sure you refer to HTML TAGS as children of the
 	display: none;
 }
 #VideoBackground {
+	height: 570px;
 	display: block;
 	text-align: center;
 	background-image: url(../video/pattern-overlay.png);
@@ -45,9 +45,7 @@ Only use classes and IDs, or make sure you refer to HTML TAGS as children of the
 	margin-top: 0px;
 	margin-bottom: 10px;
 }
-.TwoForOneTickets{
-	font-size: 2.4em;
-}
+
 .stripe {
     width: 33.333333333%;
     height: 15px;
@@ -80,64 +78,7 @@ Only use classes and IDs, or make sure you refer to HTML TAGS as children of the
 #mc-embedded-subscribe {
 	width: 100%;
 }
-#ApplyNowOffCanvasForm, #ApplyAsSpeakerOffCanvasForm {
-	background-color: #082d3c;
-	text-align: center;
-}
 
-#ApplyAsSpeakerOffCanvasForm {
-	padding-top: 20px;
-}
-#ApplyNowOffCanvasForm form, #ApplyAsSpeakerOffCanvasForm form{
-	padding: 0px 40px 40px 40px;
-}
-#ApplyNowOffCanvasForm h2, #ApplyAsSpeakerOffCanvasForm h2 {
-	color: #fefefe;
-	font-size: 5em;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-#ApplyNowOffCanvasForm .ClosingSign {
-    margin-top: 30px;
-    margin-left: 450px;
-}
-@media (max-width: 580px){
-	#ApplyNowOffCanvasForm .ClosingSign {
-	    margin-left: 500px;
-	}	
-}
-@media (max-width: 520px){
-	#ApplyNowOffCanvasForm .ClosingSign {
-	    margin-left: 440px;
-	}	
-}
-@media (max-width: 480px){
-	#ApplyNowOffCanvasForm .ClosingSign {
-	    margin-left: 400px;
-	}	
-}
-@media (max-width: 360px){
-	#ApplyNowOffCanvasForm .ClosingSign {
-	    margin-left: 280px;
-	}	
-}
-@media (max-width: 320px){
-	#ApplyNowOffCanvasForm .ClosingSign {
-	    margin-left: 260px;
-	}	
-}
-#ApplyAsSpeakerOffCanvasForm .ClosingSign {
-    margin-top: 30px;
-    margin-left: 30px;
-}
-.off-canvas-ticket-icon {
-	font-size: 6em;
-	color: #ff6f00;
-	margin-top: 65px;
-}
-.form-source-container-hide {
-	display: none;
-}
 /*APPLY NOW OFF CANVAS FORM*/
 @media (max-width:580px){
   #HeaderBluestripe {
@@ -196,7 +137,7 @@ Only use classes and IDs, or make sure you refer to HTML TAGS as children of the
 }
 
 /*VIDEO BACKGROUND*/
-@media (max-width:900px){
+@media (max-width:1050px){
 	#ImgBackground {
 		display: block;
 	}
